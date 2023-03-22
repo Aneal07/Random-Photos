@@ -1,3 +1,8 @@
 # Random-Photos
 Random-Photos
-using HTML,CSS & JAVASCRIPT.
+
+Technologies used:
+HTML,
+CSS 
+& 
+JAVASCRIPT.
