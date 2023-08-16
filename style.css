@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     margin: 0;
     display: flex;
@@ -11,6 +13,8 @@ body{
 }
 
 .image-container img{
+    transition-duration: 250ms;
+    filter: grayscale(100%);
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0,0.3);
@@ -19,7 +23,13 @@ body{
     height: 300px;
 }
 
+
+.image-container img:hover{
+    filter: grayscale(0%);
+}
+
 .btn{
+    font-family: Poppins, sans-serif;
     background-color: slateblue;
     border: none;
     padding: 10px 20px;
